@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*
+*****  TOPO
+*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-radius: 12px;
+    background: #ECF8E0;
+}
+
+.logo-header {
+    color: #8A4B08;
+}
+
+.nome-header {
+    margin: 0px 10px;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    color: #8A4B08;
+    font-family: Dancing Script;
+}
+
+/*
+*****  NAVEGAÇÃO
+*/
+
+.nav-h ul {
+    display: flex;
+}
+
+.nav-h {
+    margin-right: 2em;
+}
+
+.nav-h ul li {
+    list-style-type: none;
+    font-size: 1.2em;
+    border-left: 1px solid #F78181;
+}
+
+.nav-h ul li a {
+    color: #8A4B08;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*
+*****  CORPO
+*/
+
+.logo-linaDoces {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+    border: 5px outset #CEF6D8;
+    border-radius: 70px;
+    height: 200px;
+    background: none;
+}
+
+.logo-linaDoces .Lina {
+    height: 200px;
+    border-radius: 70px;
+}
+
+.teste {
+    margin-right: 1em;
+}
+
+.teste p a {
+    display: block;
+    color: #8A4B08;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+
+/*
+*****  PARALLAX
+*/
+
+.parallax1 {
+    background: url(../imagens/17554067_10208780696743469_5096175044698856965_n.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+.parallax2 {
+    background-image: url(../imagens/Chocotone-recheado.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+/*
+*****  PARALLAX
+*/
+
+.redes-sociais {
+    padding: 2em;
+}
+
+.redes-sociais ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+}
+
+.redes-sociais ul li {
+    list-style-type: none;
+}
+
+.botoes-redes {
+    text-align: center;
+}
+
+.redes-sociais ul li h2 {
+    font-size: 1.5em;
+}
+
+.redes-sociais ul li a {
+    color: #000;
+    text-decoration: none;
+}
