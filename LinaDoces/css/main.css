@@ -15,8 +15,7 @@ body {
 
 .header {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 80px;
     border-radius: 12px;
     background: #ECF8E0;
@@ -47,7 +46,8 @@ body {
 }
 
 .nav-h {
-    margin-right: 2em;
+    align-self: center;
+    margin-right: 1em;
 }
 
 .nav-h ul li {
@@ -83,15 +83,15 @@ body {
     border-radius: 70px;
 }
 
-.teste {
+.caixa {
     margin-right: 1em;
 }
 
-.teste p a {
+.caixa ul{
     display: block;
     color: #8A4B08;
-    font-size: 1.7em;
-    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.3em;
 }
 
 
