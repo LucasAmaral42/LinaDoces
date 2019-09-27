@@ -15,7 +15,7 @@
 <body>
 
     <header class="header">
-        <div style="display:flex; align-items: center;">
+        <div class="logo-site" style="display:flex; align-items: center;">
             <div class="logo-header"><i class="fas fa-cookie-bite fa-4x fa-fw"></i></i></div>
 
             <div class="nome-header">
@@ -36,6 +36,11 @@
                         <i class="fas fa-dollar-sign"></i> Comprar
                     </a>
                 </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-user fa-xl fa-fw"></i> Login
+                    </a>
+                </li>
             </ul>
         </nav>
         
@@ -43,11 +48,9 @@
 
     <div class="parallax1"></div>
 
-    <div class="logo-linaDoces">
+    <section class="corpo-linaDoces">
 
-        <div>
-            <img class="Lina" src="imagens/LinaDoces.jpeg">
-        </div>
+        <img class="Lina" src="imagens/LinaDoces.jpeg">
 
         <div class="caixa">
             <p>
@@ -71,15 +74,13 @@
             </p>
         </div>
 
-    </div>
+    </section>
 
     <div class="parallax2"></div>
     
-    <div class="logo-linaDoces">
+    <section class="corpo-linaDoces">
 
-        <div>
-            <img class="Lina" src="imagens/LinaDoces.jpeg">
-        </div>
+        <img class="Lina" src="imagens/LinaDoces.jpeg">
 
         <table>
             <tr>
@@ -111,7 +112,7 @@
                     Escondidinho
                 </td>
                 <td>
-                    Porra
+                    Uva
                 </td>
                 <td>
                     R$ 15,00
@@ -131,25 +132,25 @@
             </tr>
         </table>
 
-    </div>
+    </section>
 
     <div class="parallax2"></div>
 
-    <div class="logo-linaDoces">
+    <section class="corpo-linaDoces">
 
         <iframe width="auto" height="" src="https://www.youtube.com/embed/FTBuvtrMHiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <div >
-            <label style="display: block; font-size: 2em;" for="textarea">Deseja algum sabor diferente? Nos diga qual!</label>
-            <textarea name="textarea" id="" cols="40" rows="10"></textarea>
-            <button style="margin-bottom: 0.5em; height: 2em; width: 4em;" type="submit">Enviar</button>
-        </div>
-        
-    </div>
+        <form class="sugestao">
+            <label style="display: block; font-size: 1.6em;" for="sugestao">Deseja algum sabor diferente? Nos diga qual!</label>
+            <input style="margin-bottom: 0.5em; height: 2em; width: 30em;" type="text" name="sugestao" id="sugestao">
+            <button style="margin-bottom: 0.5em; height: 2em; width: 4em;" type="">Enviar</button>
+        </form>
+
+    </section>
     
         <div class="parallax2"></div>
 
-    <div class="redes-sociais">
+    <footer class="redes-sociais">
         <div>
             <ul>
                 <li>
@@ -184,7 +185,9 @@
                 </li>
             </ul>
         </div>
-    </div>
+
+        <p>Todos os direitos reservados, <strong>Lucas Vinicius</strong>. 2019</p>
+    </footer>
 
     <script src="js/main.js"></script>
 </body>
